@@ -2,3 +2,5 @@
 virtualenv ../tmp/venv
 source ../tmp/venv/bin/activate
 pip install --no-cache-dir -r mnist/requirements.txt
+cd mnist
+python main.py --no-train
